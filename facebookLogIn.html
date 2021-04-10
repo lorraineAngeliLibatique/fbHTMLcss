@@ -1,0 +1,180 @@
+<html><!--Lorraine Angeli C. Libatique BSIT 3-3-->
+	<head>
+		
+			<title>
+			Log-in to Facebook
+			</title>
+		
+		<link rel="stylesheet" type="text/css" href="facebookLogIn.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Bilbo|Amiri" rel="stylesheet">
+		<!--Tab facebook icon-->
+		<link rel="icon" href="facebook.png">
+	</head>
+	
+	<body>
+		<!--Log in Section of Facebook-->
+		<section class="firstPage">
+			
+			
+			<div class="loginbox">		
+			<div class="icon">
+					<!--Facebook Icon-->
+					<i class="fa fa-facebook" aria-hidden="true" alt="facebookIcon"></i>
+			</div>	
+						<!--Facebook Login Form-->
+					<form action="urlPhp" method="post" target="_blank" class="loginForm">
+							<label for="email" class="initialPageLabel"> E-mail or Phone:
+							</label>
+								<input type="text" id="email" name="email" placeholder="Enter E-mail or Phone" style="width:85%;" required>
+								<br><br>
+							<label for="password" class="initialPageLabel"> Password:
+							</label><br>
+								<input type="password" id="password" name="password" placeholder="Enter Password" maxlength="10" style="width:85%;" required>
+								<br><br>
+								<input type="checkbox" checked=" checked" name="remember">
+								<label for="remember"> Remember me
+								</label>
+								<input type="submit" value="LOGIN" class="btnLogin">
+								<br>
+									
+									<a href="#home">Forgot Password?</a>
+									
+					</form>
+			
+			</div>
+			<div class="downArrow">
+				<!--Down Icon-->
+				<a href="#nextPage" class="scrollDown" title="Create an Account">
+				<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+				</a>
+			</div>
+		</section>
+		
+		<section id="nextPage" class="nextPage">
+			<div class="containerBox">
+			<div class="registerBox">
+				<h1 style="margin-left: 50px;padding-top:50px;"> Create an Account</h1>
+				<h4 style="margin-left: 50px;"> It's quick and easy</h4>
+					<form action="urlPHP" target="_blank" method="post" class="createAcctForm">
+						<input type="text" id="fname" name="fname" placeholder="First name" style="width:50%;" required>
+						<input type="text" id="sname" name="sname" placeholder="Surname" style="width:40%;margin-left:10px;" required>
+						<br>
+						
+						<input type="text" placeholder="Mobile number or email address" name="mobileNmail" id="mobileNmail" style="width:50%;" required>
+						
+						<br>
+						<input type="password" placeholder="New password" name="newPass" id="newPass" style="width:50%;" required>
+							<br><label> Birthday:
+							</label><br>
+						<input list="Months" name="month" autocomplete="on" style="width:100px" title="Month" required>
+							<datalist id="Months">
+								<option value="January">
+								<option value="February">
+								<option value="March">
+								<option value="April">
+								<option value="May">
+								<option value="June">
+								<option value="July">
+								<option value="August">
+								<option value="September">
+								<option value="October">
+								<option value="November">
+								<option value="December">
+							</datalist>
+						<input list="Days" name="day" autocomplete="on" style="width:40px" title="Day" required>
+							<datalist id="Days">
+								<option value="1">
+								<option value="2">
+								<option value="3">
+								<option value="4">
+								<option value="5">
+								<option value="6">
+								<option value="7">
+								<option value="8">
+								<option value="9">
+								<option value="10">
+								<option value="11">
+								<option value="12">
+								<option value="13">
+								<option value="14">
+								<option value="15">
+								<option value="16">
+								<option value="17">
+								<option value="18">
+								<option value="19">
+								<option value="20">
+								<option value="21">
+								<option value="22">
+								<option value="23">
+								<option value="24">
+								<option value="25">
+								<option value="26">
+								<option value="27">
+								<option value="28">
+								<option value="29">
+								<option value="30">
+								<option value="31">
+							</datalist>
+						<input list="Years" name="year" autocomplete="on" style="width:60px" title="Year" required>
+							<datalist id="Years">
+								<option value="2021">
+								<option value="2020">
+								<option value="2019">
+								<option value="2018">
+								<option value="2017">
+								<option value="2016">
+								<option value="2015">
+								<option value="2014">
+								<option value="2013">
+								<option value="2012">
+								<option value="2011">
+								<option value="2010">
+								<option value="2009">
+								<option value="2008">
+								<option value="2007">
+								<option value="2006">
+								<option value="2005">
+								<option value="2004">
+								<option value="2003">
+								<option value="2002">
+								<option value="2001">
+								<option value="2000">
+								<option value="1999">
+								<option value="1998">
+								<option value="1997">
+								<option value="1996">
+								<option value="1995">
+								<option value="1994">
+								<option value="1993">
+								<option value="1992">
+								<option value="1991">
+							</datalist>
+							<br><label>Gender:</label>
+							<br>
+						<input id="genderFem" name="gender"type="radio" value="Female"><label for="genderFem">Female</label>
+						<input id="genderMale" name="gender" type="radio" value="Male"><label for="genderMale">Male</label>
+						
+						<p style="font-size:10px;color:grey;">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
+							You may receive SMS notifications from us and can opt<br> out at any time.</p><br>
+						<input type="submit" value="SIGN UP" class="btnSignUp">
+						
+							
+					</form>
+				
+			</div>
+			<div class="labelBox">
+			<div class="verticalLine">
+				<label class="fbLabel">
+					face<br>book<br>helps<br>you<br>conn<br>ect
+				</label>
+			</div>	
+			</div>
+			</div>
+		
+		</section>
+		
+	
+	
+	</body>
+</html>

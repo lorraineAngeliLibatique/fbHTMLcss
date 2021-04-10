@@ -1,0 +1,172 @@
+/*Lorraine Angeli C. Libatique BSIT 3-3*/
+body {
+	background-color:#2e294e;
+	color: black;
+	background-image: url("bg1.jpeg");
+	background-repeat: repeat-x;
+	/*background-size: cover;*/
+	background-position: top;
+	font-family: 'Amiri';
+	background-attachment: scroll;
+	
+}
+div.loginbox{
+	background-color: white;
+	color: black;
+	width: 300px;
+	height: 500px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 100px;
+}
+.initialPageLabel{
+	margin-left: 20px;
+	font-family: Bilbo;
+	letter-spacing: 3px;
+	font-weight: 900;
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+.icon{
+	margin-left: 140px;
+	font-size: 50;	
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+input[type=text],input[type=password]{
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #1b998b;
+	padding: 12px 20px;
+	font-family: Amiri;
+}
+input[type=text]:focus{	
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #f46036;
+	padding: 12px 20px;
+}
+input[type=password]:focus{	
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #f46036;
+	padding: 12px 20px;
+}
+.loginForm{
+	margin-left: 20px;
+	
+}
+.btnLogin{
+	background-color: #d7263d;
+	border: none;
+	color: white;
+	float: right;
+	margin-right: 20px;
+	padding: 10px 15px;
+	font-family: Amiri;
+	font-weight: 900;
+}
+.btnLogin:hover{
+	background-color: #1b998b;
+	border: none;
+	color: white;
+	float: right;
+	margin-right: 20px;
+	padding: 10px 15px;
+	font-family: Amiri;
+	font-weight: 900;
+}
+a{
+	text-decoration: none;
+	font-family: Amiri;
+	color: #d7263d;
+	margin-left: 25px;
+	
+}
+a:hover{
+	text-decoration: none;
+	font-family: Amiri;
+	color: #2e294e;
+	
+}
+a.scrollDown{
+	color: white;
+}
+a.scrollDown:hover{
+	opacity: 0.5;
+}
+.downArrow{
+	color: white;
+	font-size: 150;
+	margin-left: 690px;
+	
+}
+.nextPage{
+	/*background: grey;*/
+	margin-top: 503px;
+	width: 100%;
+	
+}
+div.registerBox{
+	box-sizing: border-box;
+	border-radius: 50px 0px 0px 50px;
+	color: black;
+	background-color: white;
+	width: 45%;
+	height:80%;
+	
+	box-shadow: 10px 10px 30px black;
+	float: left;
+}
+.createAcctForm{
+	margin-left: 30px;
+}
+.btnSignUp{
+	background-color: #c5d86d;
+	border: none;
+	color: black;
+	padding: 10px 15px;
+	font-family: Amiri;
+	font-weight: 900;
+	left:50%;
+	float: right;
+	margin-right: 30px;
+}
+div.verticalLine{
+	border-left: 2px solid grey;
+	height: 60%;
+	margin-top: 110px;
+	margin-left: 30px;
+
+}
+div.labelBox{
+	box-sizing: border-box;
+	border-radius: 0px 50px 50px 0px;
+	color: black;
+	background-color: white;
+	width: 45%;
+	height:80%;
+	float: right;
+	left:0;
+	box-shadow: 10px 10px 30px black;
+	display: block;
+	margin-right: 135px;
+}
+div.containerBox{
+	margin-left: 130px;
+	margin-top: 400px;
+	margin-bottom: 600px;
+	
+}
+.fbLabel{
+	font-size:100; 
+	float:right;
+	line-height:80%;
+	font-family:Amiri;
+	font-weight:900;
+	text-shadow:5px 3px 2px grey;
+	text-align:right;
+	margin-right: 10px;
+
+}
